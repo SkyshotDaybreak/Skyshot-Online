@@ -9,15 +9,19 @@ body {
 }
 @font-face {
   font-family: EBMain;
-  src: url(/fonts/EBMain.ttf);
+  src: url(/skysite/fonts/EBMain.ttf);
 }
 @font-face {
   font-family: A01;
-  src: url(/fonts/A01.otf);
+  src: url(/skysite/fonts/A01.otf);
 }
 @font-face {
   font-family: A01Ital;
-  src: url(/fonts/A01-Italic.otf);
+  src: url(/skysite/fonts/A01-Italic.otf);
+}
+@font-face {
+  font-family: fuku;
+  src: url(/skysite/fonts/FukuCatch.otf);
 }
 ::selection {
   background: #e6dedc;
