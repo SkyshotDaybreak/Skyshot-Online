@@ -1,3 +1,3 @@
 $(function () {
-    $("main").draggable();
+    $(".border").draggable();
 });
