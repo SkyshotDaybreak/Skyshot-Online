@@ -33,7 +33,6 @@ body {
   background-color: #17101a;
   color: #e6dedc;
   font-family: EBMain, monospace;
-align-items: center;
 }
 
 .border {
@@ -41,19 +40,20 @@ align-items: center;
   border-color:aquamarine;
   border-style: ridge;
   border-width: 10px;
-  /* margin: 1%; */
-  padding: 1%;
   border-radius: 8px;
+  padding: 1%;
 }
 
 main {
   width: 50%;
   font-size: x-large;
+  margin: auto;
 }
 
 #side{
   width: 40%;
   text-align: center;
+  margin: auto;
 }
 #info ul{
   list-style-type: none;
