@@ -2,11 +2,6 @@
 #46465c
 #f075b7
 */
-body {
-  background-color: #17101a;
-  color: #e6dedc;
-  font-family: EBMain, monospace;
-}
 @font-face {
   font-family: EBMain;
   src: url(/skysite/fonts/EBMain.ttf);
@@ -23,10 +18,10 @@ body {
   font-family: fuku;
   src: url(/skysite/fonts/FukuCatch.otf);
 }
-::selection {
+/* ::selection {
   background: #e6dedc;
   color: #46465c;
-}
+} */
 a {
   color:hotpink;
 }
@@ -34,27 +29,29 @@ a:visited{
   color: hotpink;
 }
 
+body {
+  background-color: #17101a;
+  color: #e6dedc;
+  font-family: EBMain, monospace;
+align-items: center;
+}
 
 .border {
   /* border-color: #e6dedc; */
   border-color:aquamarine;
   border-style: ridge;
   border-width: 10px;
-  margin: 1%;
+  /* margin: 1%; */
   padding: 1%;
   border-radius: 8px;
-
 }
 
 main {
-  float:left;
   width: 50%;
   font-size: x-large;
-  margin-top: 0;
-  padding-top: 0%;
 }
+
 #side{
-  float:right;
   width: 40%;
   text-align: center;
 }
@@ -65,15 +62,10 @@ main {
 }
 
 #ich {
-  /* z-index: 2; */
-  /* position: absolute; */
-  /* float:right; */
-  /* width: 20%; */
   height: 70%;
   width: 70%;
-  filter:hue-rotate(0deg);
-  
 }
+
 #g{
   height: 30%;
   width: 30%;
@@ -90,16 +82,9 @@ main {
   -webkit-transition: opacity 15s ease-in-out;
 }
 
-
-#charSum {
-  float : left;
-}
-
 #top {
   text-align: center;
   font-family: A01Ital;
   font-size: 8em;
   margin: 0%;
-  /* padding: 0%; */
-
 }
