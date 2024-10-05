@@ -40,7 +40,7 @@ body {
   border-style: ridge;
   border-width: 10px;
   border-radius: 8px;
-  padding: 1%;
+  /* padding: 1%; */
   width:fit-content;
   background-color: #17101a;
 }
@@ -78,15 +78,19 @@ main {
   color:hotpink;
   cursor: pointer;
   font-size:xx-large;
-  float:right;
   /* margin: 20px; */
-  border-bottom: #e6dedc;
 }
 .topbar {
-  border: #e6dedc;
+  /* background-color: #e6dedc; */
+  border: aquamarine;
+  padding:3%;
+  text-align: right;
   border-style: ridge ;
-  height: fit-content;
-}
+  border-width: 5px;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+} 
 
 #music {
   display: none;
