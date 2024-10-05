@@ -68,3 +68,11 @@ main {
   font-size: 8em;
   margin: 0%;
 }
+
+#music {
+  display: none;
+  text-align: center;
+  font-family: A01Ital;
+  font-size: 8em;
+  margin: 0%;
+}
