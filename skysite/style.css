@@ -36,13 +36,13 @@ body {
 }
 
 .border {
-  /* border-color: #e6dedc; */
   border-color:aquamarine;
   border-style: ridge;
   border-width: 10px;
   border-radius: 8px;
   padding: 1%;
   width:fit-content;
+  background-color: #17101a;
 }
 
 main {
@@ -67,6 +67,24 @@ main {
   font-family: A01Ital;
   font-size: 8em;
   margin: 0%;
+}
+.clickable {
+  color:hotpink;
+  text-decoration:underline;
+  cursor: pointer;
+  font-size:xx-large;
+  font-family: A01Ital;
+}
+.close {
+  color:hotpink;
+  text-decoration:underline;
+  cursor: pointer;
+  font-size:xx-large;
+  font-family: A01Ital;
+  float:right;
+  padding-bottom: 10px;
+  border-bottom: #e6dedc;
+  border-style: ridge;
 }
 
 #music {
