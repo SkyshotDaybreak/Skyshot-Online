@@ -18,7 +18,7 @@ $(document).ready(function(){
     });
     
     $("#openMedia").click(function(){
-        $("#media").css("display", "block");
+        $("#sc").css("display", "block");
       });
     $("#closeMedia").click(function(){
         $("#media").css("display", "none");
