@@ -36,7 +36,8 @@ a:visited{
 }
 
 body {
-  background-color: #17101a;
+  /* background-color: #17101a; */
+  background-image: url(/skysite/images//cavestory/bkBlue.png);
   color: #e6dedc;
   font-family: EBMain, monospace;
 }
@@ -95,7 +96,4 @@ main {
 
 #media {
   display: none;
-  float:right;
-  height: fit-content;
-  width: fit-content;
 }
