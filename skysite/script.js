@@ -10,10 +10,18 @@ $(document).ready(function(){
     );
 
     //open/closing window
-    $(".open").click(function(){
+    $("#openContact").click(function(){
       $("#contact").css("display", "block");
     });
-    $(".close").click(function(){
+    $("#closeContact").click(function(){
         $("#contact").css("display", "none");
+    });
+    
+    $("#openMedia").click(function(){
+        $("#media").css("display", "block");
       });
-  });
+    $("#closeMedia").click(function(){
+        $("#media").css("display", "none");
+    });
+});
+  

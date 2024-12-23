@@ -72,6 +72,7 @@ main {
   color:hotpink;
   text-decoration:underline;
   cursor: pointer;
+  font-family: a01, monospace;
   font-size:xx-large;
 }
 .close {
@@ -92,15 +93,8 @@ main {
   border-left: 0px;
 } 
 
-#music {
+#media {
   display: none;
-  text-align: center;
-  font-family: A01Ital;
-  font-size: 8em;
-  margin: 0%;
-}
-
-#sc {
   float:right;
   height: fit-content;
   width: fit-content;
