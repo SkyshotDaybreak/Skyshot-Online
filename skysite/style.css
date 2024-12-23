@@ -71,7 +71,6 @@ main {
 }
 .open {
   color:hotpink;
-  text-decoration:underline;
   cursor: pointer;
   font-family: a01, monospace;
   font-size:xx-large;
