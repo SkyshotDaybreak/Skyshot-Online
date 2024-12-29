@@ -54,7 +54,6 @@ body {
 #main {
   width: 25vw;
   font-size: x-large;
-  padding: 1%;
   text-align: center;
 }
 
@@ -99,8 +98,10 @@ body {
   display: none;
 }
 
-#ceres {
+.marquee {
   font-family: monospace;
   font-size: medium;
   width:inherit;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
