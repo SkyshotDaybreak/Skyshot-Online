@@ -51,8 +51,9 @@ body {
   background-color: #17101a;
 }
 
-main {
-  width: 50%;
+#main {
+  width: 25vw;
+  /* width: 100px; */
   font-size: x-large;
   padding: 1%;
 }
@@ -95,4 +96,9 @@ main {
 
 #media {
   display: none;
+}
+
+#ceres {
+  /* height: 50px; */
+  width:inherit;
 }
