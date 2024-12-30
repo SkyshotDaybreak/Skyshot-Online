@@ -30,6 +30,8 @@
 
  a {
   color:hotpink;
+  font-family: fuku, monospace;
+  text-decoration: none;
 }
 a:visited{
   color: hotpink;
@@ -73,7 +75,7 @@ body {
 .open {
   color:hotpink;
   cursor: pointer;
-  font-family: a01, monospace;
+  font-family: fuku, monospace;
   font-size:xx-large;
 }
 .close {
