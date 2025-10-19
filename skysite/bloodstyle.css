@@ -54,7 +54,7 @@ body {
 }
 
 #main {
-  /* width: 40vw; */
+  width: 50vw;
   font-size: x-large;
   text-align: center;
 }
@@ -64,4 +64,7 @@ body {
   font-family: A01Ital;
   font-size: 5vw;
   margin: 2%;
+}
+img {
+    width: inherit;
 }
