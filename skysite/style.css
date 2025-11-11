@@ -18,10 +18,10 @@
   font-family: fuku;
   src: url(/skysite/fonts/FukuCatch.otf);
 }
-/* ::selection {
+::selection {
   background: #e6dedc;
   color: #46465c;
-} */
+}
 
 
  * {
