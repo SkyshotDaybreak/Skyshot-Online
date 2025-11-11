@@ -54,6 +54,7 @@ body {
 }
 
 #main {
+  min-width: 450px;
   width: 50vw;
   font-size: x-large;
   text-align: center;
@@ -65,5 +66,7 @@ body {
   margin: 2%;
 }
 img {
-    width: inherit;
+  width: inherit;
+  min-width: 450px;
+
 }

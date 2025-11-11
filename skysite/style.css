@@ -54,7 +54,8 @@ body {
 }
 
 #main {
-  width: 40vw;
+  min-width: 450px;
+  width: 50vw;
   font-size: x-large;
   text-align: center;
 }
@@ -63,6 +64,7 @@ body {
   font-size: x-large;
   text-align: center;
   display: none;
+  min-width: 450px;
   width: 25vw;
 }
 
@@ -103,7 +105,7 @@ body {
 .marquee {
   font-family: monospace;
   font-size: medium;
-  width:inherit;
+  /* width:inherit; */
   padding-top: 2%;
   padding-bottom: 2%;
 }
