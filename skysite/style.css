@@ -30,7 +30,7 @@
 
  a {
   color:hotpink;
-  font-family: fuku, monospace;
+  /* font-family: fuku, monospace; */
   text-decoration: none;
 }
 a:visited{
@@ -38,19 +38,24 @@ a:visited{
 }
 
 body {
-  /* background-color: #17101a; */
-  background-image: url(/skysite/images/cavestory/bkBlue.png);
-  color: #e6dedc;
+  background-color: black;
+  background-image: url(/skysite/images/bluebg.jpg);
+  background-size: cover;
+  color:#46465c;
   font-family: EBMain, monospace;
 }
 
 .border {
-  border-color:aquamarine;
+  border-color: aquamarine;
   border-style: ridge;
   border-width: 10px;
   border-radius: 8px;
-  width:fit-content;
-  background-color: #17101a;
+  /* width: 50vw; */
+  min-width: 450px;
+  text-align: center;
+  /* background-color: #17101a; */
+  background-color: lightsteelblue;
+
 }
 
 #main {
@@ -58,7 +63,18 @@ body {
   width: 50vw;
   font-size: x-large;
   text-align: center;
+  display: grid;
+  grid:
+    "header header header" auto
+    "leftSide body rightSide" 1fr
+    "footer footer footer" auto
+    / auto 1fr auto;
+  gap: 8px;
 }
+.leftSide { grid-area: leftSide; }
+.body { grid-area: body; }
+.rightSide { grid-area: rightSide; }
+.footer { grid-area: footer; }
 
 #contact{
   font-size: x-large;
@@ -77,7 +93,7 @@ body {
 .open {
   color:hotpink;
   cursor: pointer;
-  font-family: fuku, monospace;
+  /* font-family: fuku, monospace; */
   font-size:xx-large;
 }
 .close {
