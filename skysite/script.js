@@ -29,9 +29,16 @@ $(document).ready(function(){
     });
 
     // sidebar selections
-    $("#openAbout").click(function(){
-        $("#landing").html($("#about").html());
+    $("#openHome").click(function(){
+        $("#mainBody").html($("#landing").html());
     });
-
+    $("#openAbout").click(function(){
+        $("#mainBody").html($("#about").html());
+    });
+    $("#openSocials").click(function(){
+        $("#mainBody").html($("#socials").html());
+    });
+    
+``
 });
   
