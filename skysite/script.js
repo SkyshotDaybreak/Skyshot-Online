@@ -27,5 +27,11 @@ $(document).ready(function(){
         $("#media").css("display", "none");
         $("main").css("display", "block");
     });
+
+    // sidebar selections
+    $("#openAbout").click(function(){
+        $("#landing").html($("#about").html());
+    });
+
 });
   
