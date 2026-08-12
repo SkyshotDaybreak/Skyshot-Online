@@ -138,3 +138,9 @@ body {
 #mainBody {
   text-align: left;
 }
+lastfm-tracks {
+  box-sizing: border-box;
+  border: 1px solid #000;
+  width: 210px;
+  height: 511px;
+}
