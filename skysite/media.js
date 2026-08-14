@@ -75,4 +75,12 @@ $(document).ready(function(){
             mreow = 2
         }
     ]
+
+    // 
+
+    for (var i = 0; i <= game_list.length; i++){
+        $("#mediaList").html(function(){
+            $("mediaList").html(game_list[i].title);
+        });
+    };
 });
