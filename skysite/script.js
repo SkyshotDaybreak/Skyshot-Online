@@ -8,8 +8,9 @@ $(document).ready(function(){
     //         $(".border").draggable({ disabled: true });
     //     }
     // );
-
+    
     //open/closing window
+    /*
     $("#openContact").click(function(){
         $("#contact").css("display", "block");
         $("main").css("display", "none");
@@ -27,6 +28,8 @@ $(document).ready(function(){
         $("#media").css("display", "none");
         $("main").css("display", "block");
     });
+    */
+
 
     // sidebar selections
     $("#openHome").click(function(){
@@ -37,6 +40,9 @@ $(document).ready(function(){
     });
     $("#openSocials").click(function(){
         $("#mainBody").html($("#socials").html());
+    });
+    $("#openMedia").click(function(){
+        $("#mainBody").html($("#media").html());
     });
     
 ``
