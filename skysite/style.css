@@ -52,8 +52,6 @@ body {
   border-radius: 8px;
   /* width: 50vw; */
   min-width: 450px;
-  text-align: center;
-  /* background-color: #17101a; */
   background-color: lightsteelblue;
   opacity: 0.8;
 
@@ -79,7 +77,9 @@ body {
   grid-area: rightSide;
   /* border-left: 5px ridge aquamarine; */
 }
-.footer { grid-area: footer; }
+.footer { 
+  grid-area: footer;
+ }
 
 #contact{
   font-size: x-large;
@@ -137,7 +137,7 @@ body {
 #socials { display: none; }
 #landing { display: none; }
 #mainBody {
-  height: inherit;
+  height: 40vw;
   text-align: left;  
   overflow-y: scroll;
 }
