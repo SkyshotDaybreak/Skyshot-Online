@@ -67,12 +67,12 @@ let game_list = [
 ];
 let musicList = [
     {
-        meow : 1,
-        mreow : 2
+        title : "Ceres and Calypso in the Deep Time",
+        desc : "best album evah"
     },
     {
-        meow : 1,
-        mreow : 2
+        title : "nurture",
+        desc : "look at the sky brah"
     }
 ];
 let bookList = [
@@ -87,6 +87,14 @@ let bookList = [
     {
         title: "Go Tell it on the Mountain",
         desc: "meow3"
+    },
+    {
+        title: "Yokohama",
+        desc: ""
+    }, 
+    {
+        title: "forget-me-not",
+        desc: ""
     }
 ]
 

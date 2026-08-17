@@ -1,4 +1,5 @@
-$(document).ready(function(){
+$(document).ready(function () {
+    $("#mainBody").html($("#landing").html());
 
     // sidebar selections
     $("#openHome").click(function(){
