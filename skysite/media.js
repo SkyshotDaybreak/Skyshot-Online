@@ -64,7 +64,7 @@ $(document).ready(function(){
             desc = ""
         }
 
-    ]
+    ];
     let musicList = [
         {
             meow = 1,
@@ -74,13 +74,29 @@ $(document).ready(function(){
             meow = 1,
             mreow = 2
         }
-    ]
+    ];
 
     // 
+    
 
-    for (var i = 0; i <= game_list.length; i++){
-        $("#mediaList").html(function(){
-            $("mediaList").html(game_list[i].title);
-        });
+    function display(item){ // expected -> array item property
+        $("#mediaList").innerHTML += item.title += " " + item.thumb + " " + item.desc;
     };
+    display(game_list[1]);
+
+    for(var i = 0; i < game_list.length; i++){
+        // var item = game_list[i];
+        display(game_list[i]);
+    };
+
+    $("#openMedia").click(function(){
+        // for(var i = 0; i < game_list.length; i++){
+        //     display(game_list[i]);
+        // };
+        ("#mediaList").css = ({"display": "block"});
+        // $("#mainBody").innerHTML += ("#mediaList");
+        
+    });
+
 });
+// 	document.getElementById("album_text").innerHTML += "<h2>" + item.album_name + "</h2><h3 style='margin-top:-26px;margin-bottom:-18px'>" + item.artist_name + "</h3><h3>â†’" + item.year + "</h3><p>" + item.desc + "</p>"
