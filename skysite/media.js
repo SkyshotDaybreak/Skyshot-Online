@@ -77,7 +77,7 @@ let musicList = [
 ];
 let bookList = [
     {
-        title: "persona",
+        title: "Persona",
         desc: "meow"
     },
     {
