@@ -75,6 +75,20 @@ let musicList = [
         mreow : 2
     }
 ];
+let bookList = [
+    {
+        title: "persona",
+        desc: "meow"
+    },
+    {
+        title: "Pale Fire",
+        desc: "meow2"
+    },
+    {
+        title: "Go Tell it on the Mountain",
+        desc: "meow3"
+    }
+]
 
 function display(item) { // expected array object
     $("#mediaList").append("<p>" + "<i>" + item.title + "</i> <br>" + item.desc + " </p><br>")

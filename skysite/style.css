@@ -55,6 +55,7 @@ body {
   background-color: lightsteelblue;
   opacity: 0.8;
 
+
 }
 
 #main {
@@ -72,7 +73,10 @@ body {
   gap: 8px;
 }
 .leftSide { grid-area: leftSide; }
-.body { grid-area: body; }
+.body {
+  grid-area: body;
+  overflow-y: scroll;
+}
 .rightSide { 
   grid-area: rightSide;
   /* border-left: 5px ridge aquamarine; */
@@ -139,7 +143,6 @@ body {
 #mainBody {
   height: 40vw;
   text-align: left;  
-  overflow-y: scroll;
 }
 
 lastfm-tracks {
