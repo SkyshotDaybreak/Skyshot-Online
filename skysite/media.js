@@ -44,7 +44,7 @@ let game_list = [
 {
     title : "Marathon",
     thumb : 1,
-    desc : "beautiful cyber babes",
+    desc : "I wish I could dedicate myself",
 
 },
 {
