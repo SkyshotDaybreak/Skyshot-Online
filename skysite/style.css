@@ -79,6 +79,7 @@ body {
 }
 .rightSide { 
   grid-area: rightSide;
+  position: relative;
   /* border-left: 5px ridge aquamarine; */
 }
 .footer { 
@@ -128,6 +129,7 @@ body {
   display:none;
   /* position: absolute; */
   background: darkslategrey;
+  position: absolute;
 }
 
 lastfm-tracks {
