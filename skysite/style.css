@@ -121,6 +121,11 @@ body {
   height: 520px;
 }
 
+#mediaTab{
+  float: left;
+  border: #000 ridge;
+}
+
 lastfm-tracks {
   box-sizing: border-box;
   border: 1px solid #000;

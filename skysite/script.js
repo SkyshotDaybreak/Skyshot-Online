@@ -17,6 +17,12 @@ $(document).ready(function () {
             display(game_list[i]);
         }
     });
+    // $("medGame/mus/book").click(function(){
+    //     $("#mainBody").html($("#media").html());
+    //     for (let i = 0; i < game_list.length; i++){
+    //         display(game_list[i]);
+    //     }
+    // });
     
 
 
