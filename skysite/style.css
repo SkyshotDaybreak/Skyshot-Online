@@ -97,6 +97,7 @@ body {
   cursor: pointer;
   /* font-family: fuku, monospace; */
   font-size:xx-large;
+  font-style: italic;
 }
 
 #media {
@@ -122,8 +123,11 @@ body {
 }
 
 #mediaTab{
-  float: left;
   border: #000 ridge;
+  float: left;
+  display:none;
+  /* position: absolute; */
+  background: darkslategrey;
 }
 
 lastfm-tracks {
