@@ -29,12 +29,12 @@
  }
 
  a {
-  color:hotpink;
+  color:palegoldenrod;
   /* font-family: fuku, monospace; */
   text-decoration: none;
 }
 a:visited{
-  color: hotpink;
+  color: palegoldenrod;
 }
 
 body {
@@ -46,15 +46,14 @@ body {
 }
 
 .border {
-  border-color: aquamarine;
+
+  border-color: whitesmoke;
   border-style: ridge;
-  border-width: 10px;
+  border-width: 2px;
   border-radius: 8px;
   /* width: 50vw; */
   min-width: 450px;
   background-color: lightsteelblue;
-  opacity: 0.8;
-
 
 }
 
@@ -66,9 +65,9 @@ body {
   text-align: center;
   display: grid;
   grid:
-    "header header header" auto
+    "header header rightSide" auto
     "leftSide body rightSide" 1fr
-    "footer footer footer" auto
+    "footer footer rightSide" auto
     / auto 1fr auto;
   gap: 8px;
 }
@@ -79,8 +78,14 @@ body {
 }
 .rightSide { 
   grid-area: rightSide;
-  position: relative;
-  /* border-left: 5px ridge aquamarine; */
+  background-image: url("/skysite/images/bggif.gif");
+  /* background-size: cover; */
+  background-position: 40%;
+  
+  height: inherit;
+  font-family:'Times New Roman', Times, serif;
+  align-content:center;
+  /* font-size: 10%; */
 }
 .footer { 
   grid-area: footer;
@@ -94,15 +99,11 @@ body {
   margin: 2%;
 }
 .open {
-  color:hotpink;
+  color:palegoldenrod;
   cursor: pointer;
   /* font-family: fuku, monospace; */
   font-size:xx-large;
-  font-style: italic;
-}
-
-#media {
-  display: none;
+  /* font-style: italic; */
 }
 
 .marquee {
@@ -115,12 +116,14 @@ body {
 
 /* the sequel */
 
+#media { display: none; }
 #about { display: none; }
 #socials { display: none; }
 #landing { display: none; }
 #mainBody {
   text-align: left;  
   height: 520px;
+
 }
 
 #mediaTab{
