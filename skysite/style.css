@@ -53,7 +53,7 @@ body {
   border-radius: 8px;
   /* width: 50vw; */
   min-width: 450px;
-  background-color: lightsteelblue;
+  background-color:aliceblue;
 
 }
 
@@ -128,11 +128,12 @@ body {
 
 #mediaTab{
   border: #000 ridge;
-  float: left;
+  /* float:right; */
   display:none;
-  /* position: absolute; */
+  position: relative;
   background: darkslategrey;
-  position: absolute;
+  left: -180px;
+  bottom: -190px;
 }
 
 lastfm-tracks {
