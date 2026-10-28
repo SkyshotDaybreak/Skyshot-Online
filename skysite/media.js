@@ -4,7 +4,7 @@ let game_list = [
     title: "Final Fantasy XIV: Heavensward",
     thumb: 2,
     desc: "My second year in Eorzea, I'm about on pace for one expansion per year. As many have acclaimed, Heavensward truely blows A Realm Reborn out of the water. The amped up production in cutscene work and area design were highlights for me.",
-    artist: "squeenix",
+    artist: "",
     pfm: "(PC)"
 },
 {
@@ -70,25 +70,38 @@ let game_list = [
     pfm: "(3DS)"
 },
 {
-    title : "Miscellaneous",
+    title : "Xenoblade Chronicles X",
+    desc : "meow",
+    artist: "",
+    pfm: "(Switch)"
+},
+
+{
+    title : "",
     thumb : 1,
     desc : "Persona 1 (Emulated), Cicadamata (PC), Deltarune (PC), Mewgenics (PC), Planescape: Torment (PC) ",
     artist: "",
-    pfm: ""
+    pfm: "Misc."
 }
 
 ];
 let musicList = [
+    // {
+    //     title : "Ceres and Calypso in the Deep Time",
+    //     desc : "best album evah",
+    //     artist: "Candy Claws",
+    //     pfm: ""
+    // },
+    // {
+    //     title : "nurture",
+    //     desc : "look at the sky brah",
+    //     artist: "Porter Robinson",
+    //     pfm: ""
+    // },
     {
-        title : "Ceres and Calypso in the Deep Time",
-        desc : "best album evah",
-        artist: "Candy Claws",
-        pfm: ""
-    },
-    {
-        title : "nurture",
-        desc : "look at the sky brah",
-        artist: "Porter Robinson",
+        title : "UNDER CONSTRUCTION",
+        desc : "",
+        artist: "",
         pfm: ""
     }
 ];
@@ -97,31 +110,31 @@ let bookList = [
         title: "Persona",
         desc: "This was my first novel of the year, and at the time, the first I had read in 2 years. I enjoyed MOST of this novel. I wasn’t expecting how precise the terminally online twitter/4ch trans woman characterization the main characters would be (the two main trans women had sex with each other right after meeting?). All of the intense horror passages were very hit or miss for me. There were great feelings of dread of sexual assault and Geiger-esque body horror (the last couple of chapters finished the novel <i>wonder</i>fully). But some scenes in the beginning or middle either read as incomprehensible (not in the frightening way) or felt melodramatic and over-dramatized. But despite those criticisms, I did enjoy learning about the dual protagonists and their connection to each other and the truth behind themselves. This novel also acted as the springboard into reading becoming a habit again, and for that at the very least, I will appreciate it for. Recommended if you are one of the aforementioned online trans individuals.",
         artist: "Aoife Josie Clements",
-        pfm: "(Bought)"
+        pfm: ""
     },
     {
         title: "Pale Fire",
         desc: "What led me to this book was my rabbit hole into hypertext / meta-fiction I fell into after reading and falling in love with <i>House of Leaves</i>. Fiction that integrates its medium or authorship in a creative meta-contextual way has been the particular niche of storytelling ever since I was a teenager. This novel has incredible prose (of which Nabokov has been rightfully recognized for) and a wonderfully deceptive narrative framing. I choose to believe in the homoerotic subtext between the narrator and his waxing poet of a muse that the novel revolves around. STILL NEED TO FINISH LOL.",
         artist: "Vladimir Nabokov",
-        pfm: "(Library)"
+        pfm: ""
     },
     // {
     //     title: "Go Tell it on the Mountain",
     //     desc: "meow3",
     //     artist: "James Baldwin",
-    //     pfm: "Library"
+    //     pfm: ""
     // },
     {
         title: "Yokohama",
         desc: "A manga that feels designed in a lab to specifically cater to me. An android woman who runs a coffee cafe and has an unlabeled intimate relationship to a fellow android woman? It’s almost funny. The manga has a great slice-of-life story and atmosphere in a mundane post-apocalyptic world. It’s intensely cute and immersive.",
         artist: "Hitoshi Ashinano",
-        pfm: "(Bought)"
+        pfm: ""
     }, 
     {
         title: "forget-me-not",
         desc: "Prefacing this with the fact that I read this through an unofficial fan translation online. Under the assumption that this translation is accurate, the writing of this manga felt <i>very</i> tight and requires the reader to engage and make some assumptions about the nuanced dialog these characters make. This writing nestled in the center of a lighthearted mystery crime story in Venice made for a great read. Tsuruta’s artstyle is plain gorgeous to look at (I will appreciate any manga or anime that makes its adult women actually look like adults) and incredible ink work in the architecture of this faux-Italy.",
         artist: "Kenji Tsuruta",
-        pfm: "(Digital)"
+        pfm: ""
     }
 ]
 

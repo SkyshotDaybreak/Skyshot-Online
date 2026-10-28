@@ -78,8 +78,9 @@ body {
 }
 .rightSide { 
   grid-area: rightSide;
-  background-image: url("/skysite/images/bggif.gif");
+  /* background-image: url("/skysite/images/bggif.gif"); */
   /* background-size: cover; */
+  background-color:#46465c;
   background-position: 40%;
   
   height: inherit;
